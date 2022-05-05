@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '/components/Header'
 import Hero from '/components/Hero'
+import Projects from '/components/Projects'
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <main>
+      <main className="bg-zinc-900">
         <Hero />
+        <Projects />
       </main>
     </div>
   )

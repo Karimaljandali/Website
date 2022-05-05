@@ -2,12 +2,10 @@ module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-
+      fontFamily: {
+        code: ["Fira Code"]
+      }
     },
-    fontFamily: {
-      poppins: ["Poppins"],
-      changa: ["Changa"]
-    }
   },
   plugins: [],
 }
