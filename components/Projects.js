@@ -30,8 +30,8 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 mx-auto max-w-screen-xl py-12 relative">
-      <span className="font-code text-pink-500 absolute top-0 -left-1.5 text-xl">{"<projects>"}</span>
+    <div className="grid grid-cols-3 gap-4 mx-auto max-w-screen-xl py-8 my-8 relative">
+      <span className="code-tag top-0">{"<projects>"}</span>
       {projects.map((project) => (
         <div key={project.id} className="bg-stone-800 rounded-lg text-white max-w-sm border border-stone-600">
           <img className="rounded-t-lg" src={project.photo} alt=""/>
@@ -55,7 +55,7 @@ const Projects = () => {
           </div>
         </div>
       ))}
-      <span className="font-code text-pink-500 absolute bottom-0 -left-1.5 text-xl">{"</projects>"}</span>
+      <span className="code-tag bottom-0">{"</projects>"}</span>
     </div>
   )
 }

@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .code-tag {
+      @apply font-code text-pink-500 absolute -left-1.5 text-xl;
+  }
+}
