@@ -30,7 +30,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 mx-auto max-w-screen-xl py-8 my-8 relative">
+    <div className="grid grid-cols-3 gap-4 mx-auto max-w-screen-xl p-8 my-8 relative">
       <span className="code-tag top-0">{"<projects>"}</span>
       {projects.map((project) => (
         <div key={project.id} className="bg-stone-800 rounded-lg text-white max-w-sm border border-stone-600">

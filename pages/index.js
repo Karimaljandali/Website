@@ -5,10 +5,11 @@ import Hero from '/components/Hero'
 import Projects from '/components/Projects'
 import About from '/components/About'
 import Contact from '/components/Contact'
+import Footer from '/components/Footer'
 
 export default function Home() {
   return (
-    <div className="bg-dark overflow-y-hidden">
+    <div className="bg-zinc-900 overflow-y-hidden">
       <Head>
         <title>Karim Aljandali | Freelance React Developer</title>
         <meta name="description" content="React Developer" />
@@ -21,6 +22,7 @@ export default function Home() {
         <Projects />
         <Contact />
       </main>
+      <Footer />
     </div>
   )
 }
