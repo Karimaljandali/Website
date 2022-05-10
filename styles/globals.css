@@ -6,7 +6,7 @@
 
 @layer components {
   .code-tag {
-      @apply font-code text-pink-500 absolute -left-1.5 text-xl;
+      @apply font-code text-pink-500 absolute left-1 text-xl;
   }
 }
 
