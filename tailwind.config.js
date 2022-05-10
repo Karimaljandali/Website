@@ -4,6 +4,9 @@ module.exports = {
     extend: {
       fontFamily: {
         code: ["Fira Code"]
+      },
+      backgroundImage: {
+        'hero-bg': "url('/imgs/hero-bg.jpg')"
       }
     },
   },

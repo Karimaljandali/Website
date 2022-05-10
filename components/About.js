@@ -18,18 +18,48 @@ const About = () => {
         <div className="flex-1 space-y-4">
             <h2 className="text-4xl text-cyan-400">Yo.<br /> I'm Karim Aljandali</h2>
             <p className="text-white">I'm a front-end developer with 3 years of experience creating fully responsive websites.  I have built websites for clients ranging from medium-sized law firms to local small businesses. My primary coding language is Javascript, but I also have experience with other languages such as PHP and Python.</p>
-            <h3 className="text-pink-500 text-2xl">Tools &amp; Languages</h3>
-            <div className="grid grid-cols-5 gap-y-6 pb-6">
-              <Css className="w-10 h-10 text-white hover:text-cyan-400 transition-colors"/>
-              <Html className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
-              <Javascript className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
-              <ReactIcon className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
-              <Next className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
-              <Tailwind className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
-              <Git className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
-              <Python className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
-              <Php className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
-              <Wordpress className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+            <h3 className="text-cyan-400 text-2xl">Tools &amp; Languages</h3>
+            <div className="grid grid-cols-5 gap-y-6">
+              <div className="flex flex-col items-center justify-center">
+                <Css className="w-10 h-10 text-white hover:text-cyan-400 transition-colors"/>
+                <p className="text-md text-white">CSS</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <Html className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+                <p className="text-md text-white">HTML</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <Javascript className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+                <p className="text-md text-white">Javascript</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <ReactIcon className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+                <p className="text-md text-white">React</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <Next className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+                <p className="text-md text-white">Next.js</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <Tailwind className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+                <p className="text-md text-white">TailwindCSS</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <Git className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+                <p className="text-md text-white">Git</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+               <Python className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+                <p className="text-md text-white">Python</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <Php className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+                <p className="text-md text-white">PHP</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <Wordpress className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+                <p className="text-md text-white">Wordpress</p>
+              </div>    
             </div>
         </div>
         <div className="my-8 lg:ml-6 lg:my-0">
