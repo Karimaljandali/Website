@@ -10,12 +10,12 @@
   }
 }
 
-.login-form span {
+.login-form span.contact-border {
   position: absolute;
   display: block;
 }
 
-.login-form span:nth-child(1) {
+.login-form span.contact-border:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -33,7 +33,7 @@
   }
 }
 
-.login-form span:nth-child(2) {
+.login-form span.contact-border:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -52,7 +52,7 @@
   }
 }
 
-.login-form span:nth-child(3) {
+.login-form span.contact-border:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -71,7 +71,7 @@
   }
 }
 
-.login-form span:nth-child(4) {
+.login-form span.contact-border:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;
