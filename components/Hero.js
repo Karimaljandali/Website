@@ -21,9 +21,13 @@ function Hero() {
         <button className="bg-cyan-400 text-stone-900 px-12 py-4 rounded transition-colors text-xl hover:bg-cyan-500 focus:bg-cyan-500 h-16">
           Contact Me
         </button>
-        <button className="border-2 border-cyan-400 text-cyan-400 px-12 py-4 rounded transition-colors text-xl hover:bg-cyan-400 focus:bg-cyan-400 hover:text-stone-900 focus:text-stone-900 h-16">
+        <a 
+          className="border-2 border-cyan-400 text-cyan-400 px-12 py-4 rounded transition-colors text-xl hover:bg-cyan-400 focus:bg-cyan-400 hover:text-stone-900 focus:text-stone-900 h-16"
+          href="/resume.pdf"
+          target="_blank"
+        >
           Resume
-        </button>
+        </a>
       </div>
     </div>
   );
