@@ -12,7 +12,7 @@ import Git from '/components/icons/Git'
 
 const About = () => {
   return (
-    <div className="relative mx-auto max-w-screen-xl p-8 my-8">
+    <section id="about" className="relative mx-auto max-w-screen-xl p-8 my-8">
       <span className="code-tag top-0">{"<about>"}</span>
       <div className="flex justify-between items-center flex-col lg:flex-row">
         <div className="flex-1 space-y-4">
@@ -67,7 +67,7 @@ const About = () => {
         </div>
       </div>
       <span className="code-tag bottom-0">{"</about>"}</span>
-    </div>
+    </section>
   )
 }
 

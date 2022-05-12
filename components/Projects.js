@@ -30,7 +30,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="grid mx-auto max-w-screen-xl p-8 my-8 relative lg:grid-cols-3 lg:gap-4 justify-center">
+    <section id="projects" className="grid mx-auto max-w-screen-xl p-8 my-8 relative lg:grid-cols-3 lg:gap-4 justify-center">
       <span className="code-tag top-0">{"<projects>"}</span>
       {projects.map((project) => (
         <div key={project.id} className="bg-stone-800 rounded-lg text-white max-w-sm border border-stone-600 mb-6 lg:mb-0">
@@ -56,7 +56,7 @@ const Projects = () => {
         </div>
       ))}
       <span className="code-tag bottom-0">{"</projects>"}</span>
-    </div>
+    </section>
   )
 }
 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { MenuIcon } from '@heroicons/react/solid'
 
-function Header() {
+function Header({ setMenu }) {
   const [isScrolled, setIsScrolled] = useState(false)
   
   const listenScrollEvent = () => {
@@ -20,7 +20,7 @@ function Header() {
                 <a href="/" className="">
                   <img src="/imgs/logo.png" alt="Karim Aljandali Logo" className="w-12 h-auto"/>
                 </a>
-                <MenuIcon className="h-10 w-10 text-pink-500 cursor-pointer" />
+                <MenuIcon tabIndex={0} onClick={() => setMenu(true)} className="h-10 w-10 text-pink-500 cursor-pointer transition-transform hover:scale-110 focus:scale-110" />
             </div>
         </div>
     </div>
