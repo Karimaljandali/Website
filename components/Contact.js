@@ -38,7 +38,7 @@ const Contact = () => {
     return false;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     // Create copy of the form to check all elements.
@@ -64,6 +64,24 @@ const Contact = () => {
     setFormFields(formCopy)
 
     // Send the state object to sendgrid middleware to send email.
+    const res = await fetch("/api/sendgrid", {
+      body: JSON.stringify({
+        first_name: formFields[first_name].text,
+        last_name: formFields[last_name].text,
+        email: formFields[email].text,
+        message: formFields[message].text,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+    });
+
+    const { error } = await res.json();
+    if (error) {
+      console.log(error);
+      return;
+    }
   };
 
   return (
