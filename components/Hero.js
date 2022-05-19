@@ -38,6 +38,7 @@ function Hero() {
                   className="text-white hover:text-cyan-400 focus:text-cyan-400 transition-colors"
                   href="https://github.com/Karimaljandali"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Github className="h-12 w-12 mx-4" />
                 </a>
@@ -45,6 +46,7 @@ function Hero() {
                   className="text-white hover:text-cyan-400 focus:text-cyan-400 transition-colors"
                   href="https://www.linkedin.com/in/karim-aljandali-211701136/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Linkedin className="h-12 w-12 mx-4" />
                 </a>
@@ -63,6 +65,7 @@ function Hero() {
                   className="border-2 border-cyan-400 text-cyan-400 px-12 py-4 rounded transition-colors text-xl hover:bg-cyan-400 focus:bg-cyan-400 hover:text-stone-900 focus:text-stone-900 h-16"
                   href="/resume.pdf"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Resume
                 </a>

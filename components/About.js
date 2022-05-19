@@ -16,8 +16,8 @@ const About = () => {
       <span className="code-tag top-0">{"<about>"}</span>
       <div className="flex justify-between items-center flex-col lg:flex-row">
         <div className="flex-1 space-y-4">
-            <h2 className="text-4xl text-cyan-400">Yo.<br /> I'm Karim Aljandali</h2>
-            <p className="text-white">I'm a front-end developer with 3 years of experience creating fully responsive websites.  I have built websites for clients ranging from medium-sized law firms to local small businesses. My primary coding language is Javascript, but I also have experience with other languages such as PHP and Python.</p>
+            <h2 className="text-4xl text-cyan-400">Yo.<br /> I&apos;m Karim Aljandali</h2>
+            <p className="text-white">I&apos;m a front-end developer with 3 years of experience creating fully responsive websites.  I have built websites for clients ranging from medium-sized law firms to local small businesses. My primary coding language is Javascript, but I also have experience with other languages such as PHP and Python.</p>
             <h3 className="text-cyan-400 text-2xl">Tools &amp; Languages</h3>
             <div className="grid grid-cols-5 gap-y-6">
               <div className="flex flex-col items-center justify-center">
