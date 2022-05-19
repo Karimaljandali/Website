@@ -18,7 +18,7 @@ function Hero() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="w-100 md:h-screen h-[600px] flex items-center justify-center flex-col bg-hero-bg bg-cover bg-no-repeat bg-center">
+          <div className="w-100 md:h-screen h-[600px] flex items-center justify-center flex-col bg-hero-bg bg-cover bg-no-repeat md:bg-center bg-[75%]">
             <Transition.Child
               enter="transition ease-in-out duration-500 delay-200 transform"
               enterFrom="-translate-x-full opacity-0"

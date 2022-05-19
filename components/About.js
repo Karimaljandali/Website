@@ -21,14 +21,6 @@ const About = () => {
             <h3 className="text-cyan-400 text-2xl">Tools &amp; Languages</h3>
             <div className="grid grid-cols-5 gap-y-6">
               <div className="flex flex-col items-center justify-center">
-                <Css className="w-10 h-10 text-white hover:text-cyan-400 transition-colors"/>
-                <p className="text-md text-white">CSS</p>
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <Html className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
-                <p className="text-md text-white">HTML</p>
-              </div>
-              <div className="flex flex-col items-center justify-center">
                 <Javascript className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
                 <p className="text-md text-white">Javascript</p>
               </div>
@@ -42,7 +34,15 @@ const About = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <Tailwind className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
-                <p className="text-md text-white">TailwindCSS</p>
+                <p className="text-md text-white">Tailwind</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <Css className="w-10 h-10 text-white hover:text-cyan-400 transition-colors"/>
+                <p className="text-md text-white">CSS</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <Html className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />
+                <p className="text-md text-white">HTML</p>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <Git className="w-10 h-10 text-white hover:text-cyan-400 transition-colors" />

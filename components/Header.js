@@ -18,7 +18,7 @@ function Header({ setMenu }) {
         <div className='mx-auto max-w-screen-xl'>
             <div className="px-2 py-4 flex justify-between items-center">
                 <a href="/" className="">
-                  <img src="/imgs/logo.png" alt="Karim Aljandali Logo" className="w-12 h-auto"/>
+                  <img src="/logo.png" alt="Karim Aljandali Logo" className="w-20 h-auto"/>
                 </a>
                 <MenuIcon tabIndex={0} onClick={() => setMenu(true)} className="h-10 w-10 text-pink-500 cursor-pointer transition-transform hover:scale-110 focus:scale-110" />
             </div>
