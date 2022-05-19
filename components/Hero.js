@@ -2,6 +2,7 @@ import { Transition } from "@headlessui/react";
 import Github from "./icons/Github";
 import Linkedin from "./icons/Linkedin";
 import { useState, useEffect } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Hero() {
   const [transition, setTransition] = useState(false);
@@ -49,9 +50,15 @@ function Hero() {
                 </a>
               </div>
               <div className="flex items-center justify-center space-x-2 my-10">
-                <button className="bg-cyan-400 text-stone-900 px-12 py-4 rounded transition-colors text-xl hover:bg-cyan-500 focus:bg-cyan-500 h-16">
+                <Link
+                  to="contact"
+                  smooth={true}
+                  offset={-130}
+                  duration={800}
+                  className="bg-cyan-400 text-stone-900 px-12 py-4 rounded transition-colors text-xl hover:bg-cyan-500 focus:bg-cyan-500 h-16 hover:cursor-pointer"
+                >
                   Contact Me
-                </button>
+                </Link>
                 <a
                   className="border-2 border-cyan-400 text-cyan-400 px-12 py-4 rounded transition-colors text-xl hover:bg-cyan-400 focus:bg-cyan-400 hover:text-stone-900 focus:text-stone-900 h-16"
                   href="/resume.pdf"

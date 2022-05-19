@@ -35,7 +35,7 @@ const Projects = () => {
       {projects.map((project) => (
         <div key={project.id} className="bg-stone-800 rounded-lg text-white max-w-sm border border-stone-600 mb-6 lg:mb-0">
           <img className="rounded-t-lg" src={project.photo} alt=""/>
-          <div className="p-5 space-y-2 min-h-[250px] relative">
+          <div className="p-5 pb-[90px] space-y-2 min-h-[250px] relative">
             <h3 className="text-2xl text-white">{project.title}</h3>
             <p className="text-gray-300">{project.description}</p>
             <div className="flex justify-between items-center pt-6 absolute bottom-8 space-x-2">
