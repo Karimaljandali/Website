@@ -23,7 +23,9 @@ function Header({ setMenu }) {
                     <img src="/logo.png" alt="Karim Aljandali Logo" className="w-20 h-auto"/>
                   </a>
                 </Link>
-                <MenuIcon tabIndex={0} onClick={() => setMenu(true)} className="h-10 w-10 text-pink-500 cursor-pointer transition-transform hover:scale-110 focus:scale-110" />
+                <button onClick={() => setMenu(true)} className=" cursor-pointer transition-transform hover:scale-110 focus:scale-110" >
+                  <MenuIcon className="h-10 w-10 text-pink-500" />
+                </button>
             </div>
         </div>
     </div>
