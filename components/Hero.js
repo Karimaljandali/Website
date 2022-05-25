@@ -41,6 +41,7 @@ function Hero() {
                   rel="noreferrer"
                 >
                   <Github className="h-12 w-12 mx-4" />
+                  <span className="sr-only">Karim Aljandali Github Link</span>
                 </a>
                 <a
                   className="text-white hover:text-cyan-400 focus:text-cyan-400 transition-colors"
@@ -49,6 +50,7 @@ function Hero() {
                   rel="noreferrer"
                 >
                   <Linkedin className="h-12 w-12 mx-4" />
+                  <span className="sr-only">Karim Aljandali LinkedIn Link</span>
                 </a>
               </div>
               <div className="flex items-center justify-center space-x-2 my-10">

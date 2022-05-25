@@ -25,6 +25,7 @@ function Header({ setMenu }) {
                 </Link>
                 <button onClick={() => setMenu(true)} className=" cursor-pointer transition-transform hover:scale-110 focus:scale-110" >
                   <MenuIcon className="h-10 w-10 text-pink-500" />
+                  <span className="sr-only">Open Menu Button</span>
                 </button>
             </div>
         </div>

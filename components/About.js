@@ -63,7 +63,7 @@ const About = () => {
             </div>
         </div>
         <div className="my-8 lg:ml-6 lg:my-0">
-          <img className="max-w-100 h-auto md:max-w-lg" src="/imgs/about.svg" alt=""/>
+          <img className="max-w-100 h-auto md:max-w-lg" src="/imgs/about.svg" alt="Coding image for basic styling"/>
         </div>
       </div>
       <span className="code-tag bottom-0">{"</about>"}</span>

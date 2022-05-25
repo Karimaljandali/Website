@@ -9,11 +9,15 @@ const Menu = ({ menu, setMenu }) => {
         menu === true ? "w-96" : "w-0"
       }`}
     >
-      <XIcon
-        tabIndex={0}
+      <button 
         onClick={() => setMenu(false)}
-        className="absolute top-2 right-2 h-16 w-16 text-white transition-transform cursor-pointer hover:scale-90 focus:scale-90"
-      />
+        className="absolute top-2 right-2 transition-transform cursor-pointer hover:scale-90 focus:scale-90"
+        >
+        <XIcon
+          className="h-16 w-16 text-white"
+        />
+        <span className="sr-only">Close Menu Button</span>
+      </button>
       <Link
         to="about"
         smooth={true}
@@ -21,6 +25,7 @@ const Menu = ({ menu, setMenu }) => {
         offset={-130}
         duration={800}
         className="w-full cursor-pointer px-4 py-8 border-b-2 border-stone-300 hover:bg-stone-700 focus:bg-stone-700 text-xl text-white"
+        href=""
       >
         About
       </Link>
