@@ -13,7 +13,7 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <div className="bg-zinc-900 overflow-y-hidden relative">
+    <div className="bg-stone-900 overflow-y-hidden relative">
       <Head>
         <title>Karim Aljandali | Freelance React Developer</title>
         <meta name="description" content="React Developer" />
@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
       <Header setMenu={setMenuOpen} />
       <Menu menu={menuOpen} setMenu={setMenuOpen} />
-      <main className="bg-zinc-900">
+      <main className="bg-stone-900">
         <Hero />
         <About />
         <Projects />
