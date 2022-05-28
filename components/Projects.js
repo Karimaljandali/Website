@@ -30,10 +30,10 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="grid mx-auto max-w-screen-xl p-8 my-8 relative lg:grid-cols-3 lg:gap-4 justify-center">
+    <section id="projects" className="grid mx-auto max-w-screen-xl px-8 py-12 my-8 relative lg:grid-cols-3 lg:gap-4 justify-center">
       <span className="code-tag top-0">{"<projects>"}</span>
       {projects.map((project) => (
-        <div key={project.id} className="bg-stone-800 rounded-lg text-white max-w-sm border border-stone-600 mb-6 lg:mb-0">
+        <div key={project.id} className="bg-stone-800 rounded-lg text-white max-w-sm border border-stone-600 mb-6 lg:mb-0 drop-shadow-white">
           <img className="rounded-t-lg" src={project.photo} alt={`Preview of project: ${project.title}`}/>
           <div className="p-5 pb-[90px] space-y-2 min-h-[250px] relative">
             <h3 className="text-2xl text-white">{project.title}</h3>

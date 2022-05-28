@@ -101,7 +101,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="mx-auto max-w-screen-xl relative p-8 my-8">
+    <div id="contact" className="mx-auto max-w-screen-xl relative px-8 py-12 my-8">
       <span className="code-tag top-0">{"<contact>"}</span>
       <form
         action="POST"
