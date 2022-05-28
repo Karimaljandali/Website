@@ -15,7 +15,7 @@ function Header({ setMenu }) {
   })
 
   return (
-    <div className={`w-100 fixed top-0 inset-x-0 transition-all duration-200 z-10 ${isScrolled ? "bg-stone-700" : "bg-transparent" }`}>
+    <div className={`w-100 fixed top-0 inset-x-0 transition-all duration-200 z-10 border-b-[1px] ${isScrolled ? "bg-stone-900 backdrop-blur bg-opacity-70 border-offwhite" : "bg-transparent border-b-transparent" }`}>
         <div className='mx-auto max-w-screen-xl'>
             <div className="px-2 py-4 flex justify-between items-center">
                 <Link href="/">
